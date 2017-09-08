@@ -1,0 +1,40 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Lantinghei";
+    src: url('../fonts/Lantinghei.eot?t=1502934803553');
+    /* IE9*/
+    src: url('../fonts/Lantinghei.eot?t=1502934803553#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/Lantinghei.woff?t=1502934803553') format('woff'), /* chrome, firefox */ 
+	url('../fonts/Lantinghei.ttf?t=1502934803553') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ 
+	url('../fonts/Lantinghei.svg?t=1502934803553#iconfont') format('svg');/* iOS 4.1- */
+	font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    background: #fff;
+	/* font-family: 'slHeiTi','Microsoft Yahei','Lantinghei','Arial Narrow','HELVETICA','Tahoma',serif; */
+	/* 第一个是第三方字体 */
+	font-family: 'Lantinghei',serif;
+	font-style:normal;
+	-webkit-user-select: none; 
+	/* 禁止页面文字选择 */
+}
+
+/*pad-pro横屏*/
+@media only screen and (min-width: 1366px) {
+    
+	
+}
+/*pad横屏*/
+@media only screen and (min-width: 1024px) {
+    
+	
+}
+
+/*pad竖屏*/
+@media only screen and (min-width: 768px) {
+    
+	
+}
